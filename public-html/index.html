@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<style type="text/css">
+		
+		
+		*{
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
+
+html,body{height:100%;
+background-color: black;
+}
+
+
+
+.center{
+	margin: 0 auto;
+	
+	
+}
+
+.clear{clear: both;}
+
+ .desktop {
+ 	position: relative;
+ 	display: inline-block;
+	width: 100%;
+	padding-left: 2%;
+}
+
+ .desktop ul {
+	list-style-type:none;
+	display: inline-block;
+	color: #a5d5d8;
+	margin-top: 50px;
+}
+ .desktop li{
+	padding: 3px;
+	float: left;
+	color:#a5d5d8;
+
+
+}
+
+.desktop a{
+	font-size: 14px;
+	color:#a5d5d8;
+	text-decoration-line:none;
+
+}
+
+ h1{
+
+ 	margin-left:550px;
+	color: white;
+	font-weight: lighter;
+	font-size: 14px;
+}
+
+
+
+.menu-principal {
+	display: inline-block;
+	width: 100%;
+	margin-top: 10px;
+	border: solid 3px grey;
+	background-color: #002252;
+	z-index: 1;
+}
+
+.menu-principal li {
+	float: left;
+	padding: 10px;
+	list-style-type:none;
+	padding-left: 2%;
+
+}
+
+.menu-principal li a{
+	color: white;
+	font-weight: lighter;
+	text-decoration-line: none;
+}
+
+.main{
+	position: absolute;
+	top: -4px;
+	width: 100%;
+	position: relative;
+	display:inline-block;
+	background-color:white;
+
+}
+
+.main p{
+	font-size: 12px;
+	
+}
+
+
+.main h1 {
+	margin-left: 50px;
+	text-align: center;
+	color:#a5d5d8;
+	font-size: 50px;
+	font-weight: bold;
+}
+article{
+	float: left;
+	width: 70%;
+	height:450px;
+	padding: 2%;
+	
+}
+
+
+article .border{
+	width: 100%;
+	height:102%;
+	background-color:#d8d8d8;
+	border-width:15px 10px;  
+    border-style:solid ;
+    border-color: #bababa;
+
+}
+
+
+article p{
+
+	float: right;
+	width:25%;
+	padding:40px;
+	text-align: center;
+
+}
+
+
+aside{
+
+	background-color: #002252;
+	height:450px;
+	float: right;
+	width: 30%
+
+
+}
+	
+
+aside ul{
+	color:#abc4da;
+	padding:20px;
+}
+
+aside ul a {
+	color: #a5d5d8;
+	text-decoration-line: none;
+}
+
+footer h1 {
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+	</style>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width;initial-scale=1.0;maximum-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet" />
+	
+
+</head>
+<body>	
+		<header>
+				<nav class="desktop">
+					<ul>
+						<li><a href="">Uol</a></li>
+						<li><a href="">Bol</a></li>
+						<li><a href="">Globo</a></li>
+						<li><a href="">Yahoo</a></li>
+
+						<div class="data">
+						<h1>10 de novembro de 2019</h1>
+
+					</ul>
+				</nav>
+
+					<div class="clear"></div>
+					
+					<nav class="menu-principal">
+					<ul>
+						<li><a href="">Home</a></li>
+						<li><a href="">Troféus</a></li>
+						<li><a href="">História</a></li>
+						<li><a href="">Conselho</a></li>
+						</ul>
+					</nav>
+		</header>
+
+		<section class="main">
+			<article>
+				<div class="border">
+				<h1>O time</h1>
+				<P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lectus est, viverra id ultricies ac, placerat vitae lectus. Pellentesque nec nisi sapien. Sed lectus neque, hendrerit sit amet blandit non, tristique in erat. Sed quam nisl, eleifend id luctu</p>
+				<p>cursus risus rhoncus non. Morbi non rutrum velit. Vestibulum venenatis condimentum neque, et convallis leo. Ut a pharetra nunc.rhoncus ut metus vitae malesuada. Integer lacinia est vitae tellus aliquet, in interdum nun</p>
+
+				<p>Suspendisse sollicitudin porttitor risus. Sed rhoncus ut metus vitae malesuada. Integer lacinia est vitae tellus aliquet, in interdum nunc dignissim. Nullam facilisis gravida lobortis. Vivamus rhoncus turpis vitae interdum lobortis. Curabitur porttitor iaculis lectus. </p>
+				<p>Sed pellentesque posuere diam, a accumsan nisi hendrerit sit amet. Fusce quis nisi diam. Quisque rutrum facilisis diam vitae tincidunt. Nullam aliquet tristique purus, a bibendum sem. Aliquam vitae mauris id felis aliquet tincidunt. Nullam sed diam molestie, condimentum elit ut, c</P>
+				</div>
+			</article>
+			
+			<section class="aside">
+			<aside>
+				<ul>
+						<li><a href="">Feed</a></li>
+						<li><a href="">Noticias</a></li>
+						<li><a href="">Comédia</a></li>
+					
+					</ul>
+
+			</aside>
+
+		</section>
+		</section>
+		<div class="clear"></div>
+
+		<footer>
+			<h1>Este é o rodapé </h1>
+
+		</footer>
+
+	
+</body>
+</html>
